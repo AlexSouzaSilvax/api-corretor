@@ -3,15 +3,15 @@ Desafio Java SpringBoot - HDI
 
 Exemplo de uso da API.
 
- - Validar
+      - Validar
 
-      GET /corretor/{document}
+           GET /corretor/{document}
       
            document = String.
       
- - Alterar Status
+       - Alterar Status
 
-      GET /corretor/{document}/altera-status/{status}
+         GET /corretor/{document}/altera-status/{status}
       
           document = String.
           status = Boolean.
